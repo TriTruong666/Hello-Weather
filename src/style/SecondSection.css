@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.secondSection {
+  width: 25%;
+  height: 100%;
+  background: rgb(244, 244, 244);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.secondSection .city-info {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  cursor: default;
+}
+.secondSection .city-info h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.secondSection .time-info {
+  height: 12.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+.secondSection .time-info h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.secondSection .weather-content {
+  height: 30%;
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+}
+.secondSection .weather-content .content-detail {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+  cursor: default;
+}
+.secondSection .weather-content .content-detail span {
+  font-size: 2.2rem;
+}
+.secondSection .weather-content .content-detail p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #696969;
+}
+.secondSection .weather-content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #696969;
+}
+.secondSection .weather-content .btn-detail {
+  width: 60%;
+  padding: 0.5rem 0;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  background: rgb(230, 230, 230);
+  border-radius: 1.5rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.secondSection .weather-content .btn-detail span {
+  font-size: 1rem;
+}
+.secondSection .weather-content .btn-detail p {
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+}
+.secondSection .weather-content .btn-detail:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.7);
+}
+.secondSection .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem;
+  cursor: default;
+}
+.secondSection .description h2 {
+  font-size: 1.75rem;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+.secondSection .description span {
+  text-align: center;
+  color: #696969;
+}
+.secondSection .footer {
+  height: 12%;
+  margin: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.secondSection .footer .developed-info span {
+  margin: 0 0.25rem;
+}
+.secondSection .footer .social {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.2rem;
+}
+.secondSection .footer .social .social-container {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.secondSection .footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondSection .footer .copyright span {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #696969;
+}/*# sourceMappingURL=SecondSection.css.map */

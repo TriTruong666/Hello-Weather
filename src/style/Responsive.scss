@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1600px) {
+    .mainSection {
+        width: 70%;
+
+        .navigation {
+            .search {
+                grid-column: 2 / span 4;
+            }
+
+            h2 {
+                margin-left: 3rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        .weather-info {
+            justify-content: center;
+            padding-right: 5rem;
+            .main-info {
+                margin-left: 6.5rem;
+                margin-right: 1.5rem;
+
+                h2:nth-child(1) {
+                    font-size: 14rem;
+                }
+
+                h2:nth-child(2) {
+                    font-size: 2.25rem;
+                }
+            }
+
+            .other-info {
+                div {
+                    span:nth-child(1) {
+                        font-size: 1.75rem;
+                    }
+
+                    span:nth-child(2) {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .forecast-info {
+            .forecast-container {
+                width: 80%;
+
+                .forecast-card {
+                    strong {
+                        font-size: 1.25rem;
+                    }
+
+                    span:nth-child(2) {
+                        font-size: 1.5rem;
+                    }
+
+                    span:nth-child(3) {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .secondSection {
+        width: 30%;
+        .city-info {
+            h2 {
+                font-size: 1.75rem;
+            }
+        }
+
+        .time-info {
+            height: 10%;
+
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+
+        .weather-content {
+            margin: 0 2.5rem;
+            height: 25%;
+            .content-detail {
+                column-gap: 1.5rem;
+                span {
+                    font-size: 1.9rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+            h2{
+                font-size: 1.25rem;
+            }
+            .btn-detail{
+                width: 70%;
+                padding: 0.4rem 0;
+                margin: 1rem 0;
+            }
+        }
+        .description{
+            h2{
+                font-size: 1.5rem;
+            }
+            span{
+                font-size: 0.95rem;
+            }
+        }
+        .footer{
+            margin: 2.25rem;
+        }
+    }
+    .weather-detail{
+        .content-container{
+            width: 50%;
+            height: 75%;
+        }
+    }
+}
