@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1600px) {
+  .weather-detail .content-container {
+    width: 40%;
+    height: 85%;
+  }
+  .weather-detail .content-container .container {
+    width: 90%;
+  }
+  .weather-detail .content-container .container .header {
+    margin: 1rem 0;
+  }
+  .weather-detail .content-container .container .header h2 {
+    font-size: 1.25rem;
+  }
+  .weather-detail .content-container .container .header .material-symbols-outlined {
+    font-size: 1.7rem;
+  }
+  .weather-detail .content-container .container .weather-info {
+    padding-bottom: 0.75rem;
+    margin-bottom: 0;
+  }
+  .weather-detail .content-container .container .weather-info h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .weather-detail .content-container .container .weather-info div {
+    margin: 0.2rem 0;
+  }
+  .weather-detail .content-container .container .weather-info div .material-symbols-outlined {
+    font-size: 1.2rem;
+  }
+  .weather-detail .content-container .container .weather-info div strong {
+    font-size: 0.9rem;
+  }
+  .weather-detail .content-container .container .pollution-info {
+    margin-top: 0.75rem;
+  }
+  .weather-detail .content-container .container .pollution-info h3 {
+    font-size: 1rem;
+  }
+  .weather-detail .content-container .container .pollution-info .content-pollution span, .weather-detail .content-container .container .pollution-info .content-pollution strong {
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=Responsive3.css.map */

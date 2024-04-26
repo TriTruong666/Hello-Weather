@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1600px) {
+  .secondSection {
+    width: 30%;
+  }
+  .secondSection .city-info h2 {
+    font-size: 1.5rem;
+  }
+  .secondSection .time-info {
+    height: 10%;
+  }
+  .secondSection .time-info h2 {
+    font-size: 1.2rem;
+  }
+  .secondSection .weather-content {
+    margin: 0 2.5rem;
+    height: 25%;
+  }
+  .secondSection .weather-content .content-detail {
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+  .secondSection .weather-content .content-detail span {
+    font-size: 1.75rem;
+  }
+  .secondSection .weather-content .content-detail p {
+    font-size: 0.9rem;
+  }
+  .secondSection .weather-content h2 {
+    font-size: 1.1rem;
+  }
+  .secondSection .weather-content .btn-detail {
+    width: 70%;
+    padding: 0.4rem 0;
+    margin: 0;
+  }
+  .secondSection .description h2 {
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .secondSection .description span {
+    font-size: 0.8rem;
+  }
+  .secondSection .footer {
+    margin: 1.25rem 2rem;
+    padding-top: 0.75rem;
+  }
+  .secondSection .footer .developed-info span {
+    font-size: 0.8rem;
+  }
+  .secondSection .footer .developed-info strong {
+    font-size: 0.8rem;
+  }
+  .secondSection .footer .copyright span {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}/*# sourceMappingURL=Responsive2.css.map */

@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1600px) {
+    .weather-detail {
+        .content-container {
+            width: 40%;
+            height: 85%;
+            .container{
+                width: 90%;
+                .header{
+                    margin: 1rem 0;
+                    h2{
+                        font-size: 1.25rem;
+                    }
+                    .material-symbols-outlined{
+                        font-size: 1.7rem;
+                    }
+                }
+                .weather-info{
+                    padding-bottom: 0.75rem;
+                    margin-bottom: 0;
+                    h3{
+                        font-size: 1rem;
+                        margin-bottom: 0.25rem;
+                    }
+                    div{
+                        margin: 0.2rem 0;
+                        .material-symbols-outlined{
+                            font-size: 1.2rem;
+                        }
+                        strong{
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+                .pollution-info{
+                    margin-top: 0.75rem;
+                    h3{
+                        font-size: 1rem;
+                    }
+                    .content-pollution{
+                        span,strong{
+                            font-size: 0.9rem;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

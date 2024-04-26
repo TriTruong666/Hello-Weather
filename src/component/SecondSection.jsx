@@ -6,7 +6,7 @@ import { useMemo } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../style/SecondSection.css";
-import "../style/Responsive.css";
+import "../style/Responsive2.css";
 const getCurrentTime = () => {
   const time = new Date().toLocaleTimeString("en-US", {
     hour: "numeric",

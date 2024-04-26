@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1600px) {
+    .secondSection {
+        width: 30%;
+
+        .city-info {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .time-info {
+            height: 10%;
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+
+        .weather-content {
+            margin: 0 2.5rem;
+            height: 25%;
+
+            .content-detail {
+                column-gap: 1.5rem;
+
+                span {
+                    font-size: 1.75rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            .btn-detail {
+                width: 70%;
+                padding: 0.4rem 0;
+                margin: 0;
+            }
+        }
+
+        .description {
+            h2 {
+                font-size: 1.25rem;
+                margin-top: 3rem;
+                margin-bottom: 0.5rem;
+            }
+
+            span {
+                font-size: 0.8rem;
+            }
+        }
+
+        .footer {
+            margin: 1.25rem 2rem;
+            padding-top: 0.75rem;
+            .developed-info{
+                span{
+                    font-size: 0.8rem;
+                }
+                strong{
+                    font-size: 0.8rem;
+                }
+            }
+            .copyright{
+                span{
+                    font-size: 0.5rem;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+}

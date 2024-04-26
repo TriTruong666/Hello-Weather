@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "../style/WeatherDetail.css";
-import "../style/Responsive.css";
+import "../style/Responsive3.css";
 import { useMemo } from "react";
 import BarLoader from "react-spinners/BarLoader";
 export default function WeatherDetail({
