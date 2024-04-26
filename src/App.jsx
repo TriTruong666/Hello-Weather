@@ -24,7 +24,7 @@ function App() {
   const api = {
     key: "e6a354d17937f8d0d17478ca3ef74532",
     weatherBase: "https://api.openweathermap.org/data/2.5/",
-    geoBase: "http://api.openweathermap.org/geo/1.0/",
+    geoBase: "https://api.openweathermap.org/geo/1.0/",
   };
 
   const fetchData = async () => {
