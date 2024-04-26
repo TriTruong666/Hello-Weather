@@ -17,9 +17,8 @@
         }
 
         .weather-content {
+            row-gap: 0.7rem;
             margin: 0 2.5rem;
-            height: 25%;
-
             .content-detail {
                 column-gap: 1.5rem;
 
@@ -46,7 +45,7 @@
         .description {
             h2 {
                 font-size: 1.25rem;
-                margin-top: 3.5rem;
+                margin-top: 1rem;
                 margin-bottom: 0.5rem;
             }
 

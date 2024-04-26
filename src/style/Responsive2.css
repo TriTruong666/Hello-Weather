@@ -12,8 +12,8 @@
     font-size: 1.2rem;
   }
   .secondSection .weather-content {
+    row-gap: 0.7rem;
     margin: 0 2.5rem;
-    height: 25%;
   }
   .secondSection .weather-content .content-detail {
     -moz-column-gap: 1.5rem;
@@ -35,7 +35,7 @@
   }
   .secondSection .description h2 {
     font-size: 1.25rem;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
   .secondSection .description span {
