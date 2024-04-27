@@ -6,6 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import HashLoader from "react-spinners/HashLoader";
 import WeatherDetail from "./component/WeatherDetail";
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState("");
