@@ -36,7 +36,9 @@ export default function SecondSection({
     clear:
       "Clear weather refers to conditions where the sky is devoid of clouds, allowing for ample sunlight to reach the Earth's surface. The atmosphere appears bright and open, with a vivid blue sky overhead. Clear weather typically signifies calm and stable atmospheric conditions, with little to no precipitation expected.",
     haze: "Hazy weather occurs when fine particles and pollutants in the air scatter sunlight, reducing visibility and creating a faint, blurry atmosphere. Unlike fog, which forms close to the ground, haze typically occurs at higher altitudes and can extend over large areas.",
-    thunder: "A thunderstorm is a type of weather characterized by the occurrence of thunder and lightning, often accompanied by heavy rain, strong winds, and sometimes hail. Thunderstorms are dynamic and intense atmospheric phenomena that result from the rapid upward movement of warm, moist air, which subsequently cools and condenses, forming towering cumulonimbus clouds."
+    thunder: "A thunderstorm is a type of weather characterized by the occurrence of thunder and lightning, often accompanied by heavy rain, strong winds, and sometimes hail. Thunderstorms are dynamic and intense atmospheric phenomena that result from the rapid upward movement of warm, moist air, which subsequently cools and condenses, forming towering cumulonimbus clouds.",
+    mist: "uspension in the atmosphere of very tiny water droplets (50–500 microns in diameter) or wet hygroscopic particles that reduces horizontal visibility to 1 km (0.6 mile) or more; if the visibility is reduced below 1 km, the suspension is called a fog. Mist appears to cover the landscape with a thin, grayish veil.",
+    dust: "A dust storm is a wall of dust and debris that is often blown into an area by strong winds from thunderstorms. The wall of dust can be miles long and several thousand feet high. Dust storms happen in many places around the world.",
   };
   const noticeWeather = {
     hot: [
@@ -83,6 +85,10 @@ export default function SecondSection({
       return weatherDescription.haze;
     } else if(status === "Thunderstorm") {
       return weatherDescription.thunder;
+    } else if(status === "Mist") {
+      return weatherDescription.mist;
+    } else if(status === "Dust") {
+      return weatherDescription.dust;
     }
   };
   const iconCase = (temp) => {
