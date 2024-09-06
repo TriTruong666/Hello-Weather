@@ -172,7 +172,7 @@ export default function SecondSection({
             <box-icon name="facebook-circle" type="logo" size="sm"></box-icon>
           </a>
           <a
-            href="https://github.com/TriTruong666"
+            href="https://github.com/TriTruong666/Hello-Weather"
             className="social-container"
           >
             <box-icon name="github" type="logo" size="sm"></box-icon>
