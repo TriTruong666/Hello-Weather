@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import HashLoader from "react-spinners/HashLoader";
 import WeatherDetail from "./component/WeatherDetail";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState("");
@@ -39,6 +39,7 @@ function App() {
       );
       const defaultWeather = await reloadResponse1.json();
       setWeather(defaultWeather);
+      console.log(defaultWeather);
       const reloadResponse2 = await fetch(
         `${api.weatherBase}forecast?lat=${location.lat}&lon=${location.lon}&units=metric&appid=${api.key}&lang=en&cnt=33`
       );
