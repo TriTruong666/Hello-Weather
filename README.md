@@ -61,4 +61,4 @@ Follow these steps to get a local copy of the project up and running:
 
 ## 📧 Contact
 
-For any inquiries or feedback, please reach out at your-email@example.com.
+For any inquiries or feedback, please reach out at tritruonghoang3@gmail.com
